@@ -19,6 +19,7 @@ export default function Home() {
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
+            <div>Hello next js</div>
           </p>
           <div>
             <a
