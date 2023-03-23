@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>Hello folks, this is my first nextJS project.</div>
+        <div>Hello folks, this is a appstick task.</div>
       </main>
     </>
   )
