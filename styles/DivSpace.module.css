@@ -12,13 +12,6 @@
   font-weight: 600;
 }
 
-.primarytextadvert {
-  font-size: 30px;
-  color: cornflowerblue;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 600;
-}
-
 .secondarytextsubs {
   font-size: 15px;
   color: white;
@@ -26,6 +19,37 @@
   font-weight: 600;
   padding-top: 0.5rem;
 }
+
+.primarytextadvert {
+  font-size: 27px;
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.secondarytextadvert {
+  font-size: 27px;
+  color: rgb(255, 146, 29);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+
+.imageContaineradvert {
+  list-style: none;
+  display: flex;
+  gap: 0.01rem;
+  margin: 0;
+  padding: 0;
+}
+
+.imageContaineradvert li img {
+  margin-top: 2rem;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
 
 .textarea {
   border-radius: 50px; /* Make the border radius half of the height */
