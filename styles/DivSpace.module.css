@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 7px;
+}
+
+.primarytextsubs {
+  font-size: 30px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.primarytextadvert {
+  font-size: 30px;
+  color: cornflowerblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+
+.secondarytextsubs {
+  font-size: 15px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+
+.textarea {
+  border-radius: 50px; /* Make the border radius half of the height */
+  margin-top: 1rem;
+  border: 1px solid rgb(29, 102, 238);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  height: 40px; /* You can adjust the height as per your requirement */
+  position: relative;
+}
+
+.textarea::placeholder {
+  color: gray;
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+

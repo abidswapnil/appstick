@@ -10,6 +10,49 @@
   color: forestgreen;
 }
 
+.background {
+  background-color: rgb(247, 247, 247);
+}
+
+.cardBox {
+  padding-top: 7rem;
+  padding-left: 30rem;
+}
+
+.subscription {
+  display: flex;
+  margin-top: 120px;
+  height: 300px;
+  width: 100%;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertise {
+  display: flex;
+  margin-top: 120px;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(249, 237, 224);
+  justify-content: center;
+  align-items: center;
+}
+
+.h2 {
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  color: rgba(97, 92, 92, 0.831);
+  font-size: 22px;
+}
+
+.cardBoxHeader {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

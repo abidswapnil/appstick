@@ -1,0 +1,94 @@
+.card {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    width: 280px;
+    height: 295px;
+    margin: 0 20px 20px 0;
+    margin-right: 3rem;
+  }
+
+  .cardHolder {
+    margin-top: 7rem;
+  }
+  
+  .cardImageUbs {
+    width: 35%;
+    height: 30%;
+    object-fit: contain;
+    margin-left: 30px;
+  }
+
+  .cardImagePictet{
+    width: 50%;
+    height: 30%;
+    object-fit: contain;
+    margin-left: 30px;
+  }
+
+  .cardImageMirabaud {
+    width: 60%;
+    height: 30%;
+    object-fit: contain;
+    margin-left: 30px;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .cardTitle {
+    margin: 0 0 8px 0;
+    font-size: 17;
+    font-weight: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    margin-bottom: 20px;
+  }
+  
+  .cardDescription {
+    margin: 0;
+    font-size: 16px;
+    color: #666666;
+  }
+
+  .cardRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-between;
+  }
+  
+  .cardLabel {
+    margin-right: 8px;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(141, 141, 141);
+  }
+  
+  .cardValue {
+    font-size: 16px;
+    color: black;
+  }
+
+  .cardIcon {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+
+  .cardText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardSubLabel {
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.6;
+    font-weight: 200;
+  }
