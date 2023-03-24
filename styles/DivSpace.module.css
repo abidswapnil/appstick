@@ -71,4 +71,50 @@
   padding-left: 15px;
 }
 
+.footercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.rightfooter {
+  position: relative;
+  right: 30rem;
+}
+
+.rightfooterprimarytext {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: 600;
+}
+.link {
+  color: green;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.rightfootersubtext {
+  display: block;
+  margin-top: 12px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.rightfootersecondarytext {
+  display: block;
+  margin-top: 12px;
+}
+
+.contactbutton {
+  position: relative;
+  margin-top: 20px;
+  right: 16px;
+}
+
+
+
 

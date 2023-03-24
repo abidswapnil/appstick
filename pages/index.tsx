@@ -42,7 +42,9 @@ export default function Home() {
         <div className={styles.advertise}>
           <Advertise />
         </div>
-        <Footer />
+        <div className={styles.footer}>
+          <Footer />
+        </div>
       </main>
     </>
   )

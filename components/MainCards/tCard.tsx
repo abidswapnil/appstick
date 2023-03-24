@@ -11,20 +11,24 @@ const Tcard = ({ title, description }) => {
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
           <p className={styles.cardDescription}>{description}</p>
-          <div className={styles.cardRow}>
-            <FontAwesomeIcon icon={faCalendar} className={styles.cardIcon} />
-            <div className={styles.cardText}>
-              <span className={styles.cardLabel}>New Booking</span>
-              <span className={styles.cardSubLabel}>Book a new schedule</span>
+          <a href=''>
+            <div className={styles.cardRow}>
+              <FontAwesomeIcon icon={faCalendar} className={styles.cardIcon} />
+              <div className={styles.cardText}>
+                <span className={styles.cardLabel}>New Booking</span>
+                <span className={styles.cardSubLabel}>Book a new schedule</span>
+              </div>
             </div>
-          </div>
-          <div className={styles.cardRow}>
-            <FontAwesomeIcon icon={faRoute} className={styles.cardIcon} />
-            <div className={styles.cardText}>
-              <span className={styles.cardLabel}>Plan & roots</span>
-              <span className={styles.cardSubLabel}>Explore all packages</span>
+          </a>
+          <a href=''>
+            <div className={styles.cardRow}>
+              <FontAwesomeIcon icon={faRoute} className={styles.cardIcon} />
+              <div className={styles.cardText}>
+                <span className={styles.cardLabel}>Plan & roots</span>
+                <span className={styles.cardSubLabel}>Explore all packages</span>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     );

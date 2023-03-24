@@ -1,5 +1,5 @@
 import styles from '@/styles/DealCard.module.css';
-import ExploreButton from '../Buttons/DealcardButton';
+import OvalButton from '../Buttons/OvalButton';
 import Image from 'next/image';
 import pictet from '../../public/Images/DealCardImages/pictet.svg';
 
@@ -22,7 +22,7 @@ const CardTwo = ({ title, description }) => {
               <span className={styles.cardLabel}>Interest rate:</span>
               <span className={styles.cardValue}>3.5 - 10 %</span>
           </div>
-          <ExploreButton />
+          <OvalButton title='Explore' />
         </div>
       </div>
     );

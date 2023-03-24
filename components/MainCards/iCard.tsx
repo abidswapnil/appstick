@@ -12,27 +12,33 @@ const Icard = ({ title, description }) => {
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
           <p className={styles.cardDescription}>{description}</p>
-          <div className={styles.cardRow}>
-            <FontAwesomeIcon icon={faHome} className={styles.cardIcon} />
-            <div className={styles.cardText}>
-              <span className={styles.cardLabel}>Home</span>
-              <span className={styles.cardSubLabel}>1year - 25years</span>
+          <a href=''>
+            <div className={styles.cardRow}>
+              <FontAwesomeIcon icon={faHome} className={styles.cardIcon} />
+              <div className={styles.cardText}>
+                <span className={styles.cardLabel}>Home</span>
+                <span className={styles.cardSubLabel}>1year - 25years</span>
+              </div>
             </div>
-          </div>
-          <div className={styles.cardRow}>
-            <FontAwesomeIcon icon={faCarSide} className={styles.cardIcon} />
-            <div className={styles.cardText}>
-              <span className={styles.cardLabel}>Mobility</span>
-              <span className={styles.cardSubLabel}>3months - 10 years</span>
+          </a>
+          <a href=''>
+            <div className={styles.cardRow}>
+              <FontAwesomeIcon icon={faCarSide} className={styles.cardIcon} />
+              <div className={styles.cardText}>
+                <span className={styles.cardLabel}>Mobility</span>
+                <span className={styles.cardSubLabel}>3months - 10 years</span>
+              </div>
             </div>
-          </div>
-          <div className={styles.cardRow}>
-            <FontAwesomeIcon icon={faPlaneDeparture} className={styles.cardIcon} />
-            <div className={styles.cardText}>
-              <span className={styles.cardLabel}>Traveling</span>
-              <span className={styles.cardSubLabel}>Day long - 6 months</span>
+          </a>
+          <a href=''>
+            <div className={styles.cardRow}>
+              <FontAwesomeIcon icon={faPlaneDeparture} className={styles.cardIcon} />
+              <div className={styles.cardText}>
+                <span className={styles.cardLabel}>Traveling</span>
+                <span className={styles.cardSubLabel}>Day long - 6 months</span>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     );

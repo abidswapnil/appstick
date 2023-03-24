@@ -1,5 +1,5 @@
 import styles from '@/styles/DealCard.module.css';
-import ExploreButton from '../Buttons/DealcardButton';
+import OvalButton from '../Buttons/OvalButton';
 import Image from 'next/image';
 import mirabaud from '../../public/Images/DealCardImages/mirabaud.svg';
 
@@ -22,7 +22,7 @@ const CardThree = ({ description, title }) => {
               <span className={styles.cardLabel}>Interest rate:</span>
               <span className={styles.cardValue}>3.5 - 10 %</span>
           </div>
-          <ExploreButton />
+          <OvalButton title='Explore' />
         </div>
       </div>
     );
