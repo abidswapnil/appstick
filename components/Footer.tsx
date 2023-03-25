@@ -2,6 +2,8 @@ import styles from '@/styles/DivSpace.module.css'
 import OvalButton from './Buttons/OvalButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Image from 'next/image';
+import googleplay from '@/public/Images/FooterImages/googleplay.svg'
 
 const Footer = () => {
     return (
@@ -58,6 +60,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className={styles.socialLinks}>
+            <a href=""><Image src={googleplay} /></a>
             <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /></a>
             <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a>

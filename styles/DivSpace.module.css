@@ -52,15 +52,15 @@
 
 
 .textarea {
-  border-radius: 50px; /* Make the border radius half of the height */
-  margin-top: 1rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; /* Make the border radius half of the height */
   border: 1px solid rgb(29, 102, 238);
   font-family: Arial, sans-serif;
   font-size: 16px;
   padding: 10px;
-  width: 100%;
+  width: 71%;
   border: none;
-  height: 40px; /* You can adjust the height as per your requirement */
+  height: 41px; /* You can adjust the height as per your requirement */
   position: relative;
 }
 
@@ -69,6 +69,13 @@
   font-style: normal;
   font-size: 15px;
   padding-left: 15px;
+}
+
+.subscriptioncontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .footercontainer {
@@ -149,12 +156,19 @@
 .socialLinks {
   list-style: none;
   display: flex;
+  flex-direction: row;
   gap: 2rem;
   margin-left: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   color: greenyellow;
 }
+
+.googleplayimg {
+  height: 10%;
+  width: 20%;
+}
+
 
 
 
