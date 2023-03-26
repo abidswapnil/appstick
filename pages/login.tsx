@@ -12,9 +12,9 @@ const LoginScreen = () => {
               <div className={styles.loginContainer}>
                 <span>Log In</span>
                 <div className={styles.formGroup}>
-                  <p>Email</p>
+                  <label htmlFor="email" className={styles.label}>Email:</label>
                   <input type='text' placeholder='Your email' className={styles.input}></input>
-                  <p>Password</p>
+                  <label htmlFor="password" className={styles.label}>Password</label>
                   <input type='password' placeholder='Your password' className={styles.input}></input>
                   <a href="" className={styles.forgotPasswordLink}>Forgot password?</a>
                   <button className={styles.loginbutton}>Log In</button>

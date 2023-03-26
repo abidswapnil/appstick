@@ -12,15 +12,17 @@ const LoginScreen = () => {
               <div className={styles.loginContainer}>
                 <span>Sign Up</span>
                 <div className={styles.formGroup}>
-                  <p>Email</p>
+                  <label htmlFor="email" className={styles.label}>Emalil</label>
                   <input type='text' placeholder='Your email' className={styles.input}></input>
-                  <p>First name</p>
+                  <label htmlFor="firstName" className={styles.label}>First name</label>
                   <input type='text' placeholder='First name' className={styles.input}></input>
-                  <p>Last name</p>
+                  <label htmlFor="lastName" className={styles.label}>Last name</label>
                   <input type='text' placeholder='Last name' className={styles.input}></input>
+                  <label htmlFor="password" className={styles.label}>Create password</label>
+                  <input type='password' placeholder='Create password' className={styles.input}></input>
                   <a href="" className={styles.forgotPasswordLink}>Forgot password?</a>
                   <button className={styles.loginbutton}>Sign Up</button>
-                  <p>Already have an account? <a href="" className={styles.createAccountLink}>Log In</a></p>
+                  <p>Already have an account? <a href="http://localhost:3000/login" className={styles.createAccountLink}>Log In</a></p>
                   <div className={styles.signupButtonGroup}>
                     <button className={styles.signUpwithFacebook}>
                       <FontAwesomeIcon icon={faFacebook} size="lg" />Sign up with facebook
