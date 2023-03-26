@@ -1,4 +1,4 @@
-import styles from '@/styles/MainCard.module.css';
+import styles from '@/styles/Card/MainCard.module.css';
 import { faUserPlus, faCreditCard, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
@@ -11,7 +11,7 @@ const Bcard = ({ title, description }) => {
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
           <p className={styles.cardDescription}>{description}</p>
-          <a href=''>
+          <a href="http://localhost:3000/registration">
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faUserPlus} className={styles.cardIcon} />
               <div className={styles.cardText}>

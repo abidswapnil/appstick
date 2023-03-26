@@ -1,4 +1,4 @@
-import styles from '@/styles/TripCard.module.css';
+import styles from '@/styles/Card/TripCard.module.css';
 import Image from 'next/image';
 import germany from '../../public/Images/TripCardImages/germany.svg'
 

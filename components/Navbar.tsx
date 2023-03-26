@@ -21,7 +21,7 @@ const Navbar = () => {
         </li>
         <li>
           <FontAwesomeIcon icon={faUser} className={styles.link} />
-          <a className={styles.navLink} href="" >My Profile</a>
+          <a className={styles.navLink} href="http://localhost:3000/dashboard" >My Profile</a>
         </li>
       </ul>
       <div><FontAwesomeIcon icon={faSearch} className={styles.link} /></div>

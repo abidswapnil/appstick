@@ -1,4 +1,4 @@
-import styles from '@/styles/MainCard.module.css';
+import styles from '@/styles/Card/MainCard.module.css';
 import { faCalendar, faRoute } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';

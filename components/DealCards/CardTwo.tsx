@@ -1,4 +1,4 @@
-import styles from '@/styles/DealCard.module.css';
+import styles from '@/styles/Card/DealCard.module.css';
 import OvalButton from '../Buttons/OvalButton';
 import Image from 'next/image';
 import pictet from '../../public/Images/DealCardImages/pictet.svg';

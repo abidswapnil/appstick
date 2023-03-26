@@ -1,0 +1,59 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    margin-left: 3rem;
+    margin-top: 0rem;
+    gap: 0.2rem;
+  }
+
+  .card span {
+    display: flex;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-top: 12%;
+    margin-left: 8%;
+  }
+
+  .card p {
+    display: flex;
+    color: rgb(125, 125, 125);
+    font-size: 17px;
+    margin-left: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .rectangleCard {
+    display: flex;
+    height: 40vh;
+    width: 90vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    margin-left: 3rem;
+    margin-top: 2rem;
+    gap: 0.2rem;
+  }
+
+  .rectangleCard span {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+    margin: 2rem;
+  }
+
+  .rectangleCard img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  
