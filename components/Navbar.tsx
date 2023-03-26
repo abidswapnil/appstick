@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className={styles.navLinks}>
         <li>
           <FontAwesomeIcon icon={faBriefcase}  className={styles.link} />
-          <a className={styles.navLink} href="">Banking</a>
+          <a className={styles.navLink} href="http://localhost:3000">Banking</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faShieldAlt} className={styles.link} />

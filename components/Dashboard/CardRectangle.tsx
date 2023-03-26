@@ -1,6 +1,4 @@
 import styles from '@/styles/Dashboard/Card.module.css'
-import Image from 'next/image';
-import overview from '../../public/Images/DashboardImages/overview.svg';
 
 const CardRectangle = ({ content }) => {
 
@@ -8,13 +6,12 @@ const CardRectangle = ({ content }) => {
     <div className={styles.rectangleCard}>
       {
         content === 'card1' && <div>
-          <span>This Year Overview</span>
-          <Image src={overview} alt='' />
+          <span>Overview content</span>
         </div>
       }
       {
         content === 'card2' && <div>
-          <span>Insurence</span>
+          <span>Insurence content</span>
         </div>
       }
     </div>

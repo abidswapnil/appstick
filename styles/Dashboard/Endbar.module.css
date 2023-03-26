@@ -1,0 +1,52 @@
+.endbar {
+    display: flex;
+    flex-direction: column;
+    height: 615px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    margin-left: 14rem;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+  .card-label {
+    display: flex;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-top: 12%;
+    margin-left: 8%;
+    color: rgb(154, 154, 154);
+  }
+  
+  .ul span {
+    color: rgb(186, 186, 186);
+    font-size: 13px;
+    letter-spacing: 6px;
+  }
+  
+  .ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(164, 164, 164);
+    margin-top: 10%;
+    text-align: left;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    gap: 1.5rem;
+  }
+  
+  .ul a {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  
+  
+  
+  
+  

@@ -1,7 +1,7 @@
 import styles from '@/styles/Dashboard/Card.module.css'
 
 const Card = ({cardNumber, cardTitle, numberColor}) => {
-
+  
   const numberStyle = {
     color: numberColor
   };
