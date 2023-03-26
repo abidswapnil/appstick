@@ -10,17 +10,15 @@ const LoginScreen = () => {
             <div className={styles.mainContainer}>
               <Image alt='' src={tree} />
               <div className={styles.loginContainer}>
-                <span>Sign Up</span>
+                <span>Log In</span>
                 <div className={styles.formGroup}>
                   <p>Email</p>
                   <input type='text' placeholder='Your email' className={styles.input}></input>
-                  <p>First name</p>
-                  <input type='text' placeholder='First name' className={styles.input}></input>
-                  <p>Last name</p>
-                  <input type='text' placeholder='Last name' className={styles.input}></input>
+                  <p>Password</p>
+                  <input type='password' placeholder='Your password' className={styles.input}></input>
                   <a href="" className={styles.forgotPasswordLink}>Forgot password?</a>
-                  <button className={styles.loginbutton}>Sign Up</button>
-                  <p>Already have an account? <a href="" className={styles.createAccountLink}>Log In</a></p>
+                  <button className={styles.loginbutton}>Log In</button>
+                  <p>Don't have account? <a href="http://localhost:3000/registration" className={styles.createAccountLink}>Create a account</a></p>
                   <div className={styles.signupButtonGroup}>
                     <button className={styles.signUpwithFacebook}>
                       <FontAwesomeIcon icon={faFacebook} size="lg" />Sign up with facebook

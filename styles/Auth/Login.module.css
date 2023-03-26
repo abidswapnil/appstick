@@ -1,0 +1,111 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: white;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+
+.loginContainer span {
+  display: flex;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: rgb(94, 94, 94);
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+.loginContainer p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+  margin-bottom: 0.7rem;
+}
+
+.forgotPasswordLink {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:green;
+  margin-bottom: 1.7rem;
+}
+
+.createAccountLink {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:green;
+  margin-bottom: 1.7rem;
+}
+
+.input {
+  width: 500px;
+  height: 45px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 1rem;
+}
+
+.loginbutton {
+  border-radius: 50px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+  height: 40px;
+  transition: background-color 0.3s ease-in-out;
+  border: 1px solid green;
+  margin-bottom: 2rem;
+}
+
+.signUpwithFacebook, .signUpwithGoogle {
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  color: darkgray;
+  height: 40px;
+  width: 50%;
+  transition: background-color 0.3s ease-in-out;
+  border: 1px solid green;
+  margin-bottom: 2rem;
+}
+
+.signupButtonGroup {
+  margin-top: 2rem;
+  display: flex;
+  gap: 7%;
+}
+
+.loginbutton:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+
+.signUpwithGoogle:hover, .signUpwithFacebook:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+
+.nameInputGroup {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+
+
+
