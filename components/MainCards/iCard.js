@@ -3,6 +3,7 @@ import { faHome, faCarSide, faPlaneDeparture } from '@fortawesome/free-solid-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import insurence from '../../public/Images/MainCardImages/insurence.svg';
+import Link from 'next/link';
 
 
 const Icard = ({ title }) => {
@@ -11,7 +12,7 @@ const Icard = ({ title }) => {
         <Image className={styles.cardImage} src={insurence} alt='' />
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
-          <a href=''>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faHome} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -19,8 +20,8 @@ const Icard = ({ title }) => {
                 <span className={styles.cardSubLabel}>1year - 25years</span>
               </div>
             </div>
-          </a>
-          <a href=''>
+          </Link>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faCarSide} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -28,8 +29,8 @@ const Icard = ({ title }) => {
                 <span className={styles.cardSubLabel}>3months - 10 years</span>
               </div>
             </div>
-          </a>
-          <a href=''>
+          </Link>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faPlaneDeparture} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -37,7 +38,7 @@ const Icard = ({ title }) => {
                 <span className={styles.cardSubLabel}>Day long - 6 months</span>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     );

@@ -3,6 +3,7 @@ import { faUserPlus, faCreditCard, faSackDollar } from '@fortawesome/free-solid-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import banking from '../../public/Images/MainCardImages/banking.svg';
+import Link from 'next/link';
 
 const Bcard = ({ title }) => {
     return (
@@ -10,7 +11,7 @@ const Bcard = ({ title }) => {
         <Image className={styles.cardImage} src={banking} alt='' />
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
-          <a href="http://localhost:3000/registration">
+          <Link href="">
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faUserPlus} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -18,8 +19,8 @@ const Bcard = ({ title }) => {
                 <span className={styles.cardSubLabel}>Your multiple bank account</span>
               </div>
             </div>
-          </a>
-          <a href=''>
+          </Link>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faSackDollar} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -27,8 +28,8 @@ const Bcard = ({ title }) => {
                 <span className={styles.cardSubLabel}>Explore saving plan</span>
               </div>
             </div>
-          </a>
-          <a href=''>
+          </Link>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faCreditCard} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -36,7 +37,7 @@ const Bcard = ({ title }) => {
                 <span className={styles.cardSubLabel}>Personalize your cards</span>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     );

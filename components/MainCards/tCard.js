@@ -3,6 +3,7 @@ import { faCalendar, faRoute } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import travel from '../../public/Images/MainCardImages/travel.svg';
+import Link from 'next/link';
 
 const Tcard = ({ title}) => {
     return (
@@ -10,7 +11,7 @@ const Tcard = ({ title}) => {
         <Image className={styles.cardImage} src={travel} alt='' />
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
-          <a href=''>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faCalendar} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -18,8 +19,8 @@ const Tcard = ({ title}) => {
                 <span className={styles.cardSubLabel}>Book a new schedule</span>
               </div>
             </div>
-          </a>
-          <a href=''>
+          </Link>
+          <Link href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faRoute} className={styles.cardIcon} />
               <div className={styles.cardText}>
@@ -27,7 +28,7 @@ const Tcard = ({ title}) => {
                 <span className={styles.cardSubLabel}>Explore all packages</span>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     );
