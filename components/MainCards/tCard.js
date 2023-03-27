@@ -4,13 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import travel from '../../public/Images/MainCardImages/travel.svg';
 
-const Tcard = ({ title, description }) => {
+const Tcard = ({ title}) => {
     return (
       <div className={styles.card}>
-        <Image className={styles.cardImage} src={travel} alt={title} />
+        <Image className={styles.cardImage} src={travel} alt='' />
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
-          <p className={styles.cardDescription}>{description}</p>
           <a href=''>
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faCalendar} className={styles.cardIcon} />

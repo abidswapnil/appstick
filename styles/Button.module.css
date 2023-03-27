@@ -1,4 +1,4 @@
-.dealcardbutton {
+.ovalbutton {
     display: inline-block;
     padding:  0.01rem 1rem;
     border-radius: 50px;
@@ -14,10 +14,11 @@
     line-height: 10px;
     transition: background-color 0.3s ease-in-out;
     border: 1px solid green;
+    margin-top: 1rem;
     margin-left: 20px;
   }
   
-  .dealcardbutton:hover {
+  .ovalbutton:hover {
     background-color: green;
     cursor: pointer;
     color: white;

@@ -60,7 +60,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className={styles.socialLinks}>
-            <a href=""><Image src={googleplay} /></a>
+            <a href=""><Image src={googleplay} alt=''/></a>
             <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /></a>
             <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a>

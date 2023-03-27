@@ -4,13 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import banking from '../../public/Images/MainCardImages/banking.svg';
 
-const Bcard = ({ title, description }) => {
+const Bcard = ({ title }) => {
     return (
       <div className={styles.card}>
-        <Image className={styles.cardImage} src={banking} alt={title} />
+        <Image className={styles.cardImage} src={banking} alt='' />
         <div className={styles.cardContent}>
           <h3 className={styles.cardTitle}>{title}</h3>
-          <p className={styles.cardDescription}>{description}</p>
           <a href="http://localhost:3000/registration">
             <div className={styles.cardRow}>
               <FontAwesomeIcon icon={faUserPlus} className={styles.cardIcon} />

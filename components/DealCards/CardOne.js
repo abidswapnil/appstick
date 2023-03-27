@@ -1,15 +1,13 @@
 import styles from '@/styles/Card/DealCard.module.css';
 import OvalButton from '../Buttons/OvalButton';
 import Image from 'next/image';
-import pictet from '../../public/Images/DealCardImages/pictet.svg';
+import ubs from '../../public/Images/DealCardImages/ubs.svg';
 
-const CardTwo = ({ title, description }) => {
+const CardOne = () => {
     return (
       <div className={styles.card}>
-        <Image className={styles.cardImagePictet} src={pictet} alt={title} />
+        <Image className={styles.cardImageUbs} src={ubs} alt='' />
         <div className={styles.cardContent}>
-          <h3 className={styles.cardTitle}>{title}</h3>
-          <p className={styles.cardDescription}>{description}</p>
           <div className={styles.cardRow}>
               <span className={styles.cardLabel}>Instalment amount:</span>
               <span className={styles.cardValue}>50 - 250 F</span>
@@ -28,4 +26,4 @@ const CardTwo = ({ title, description }) => {
     );
   };
 
-export default CardTwo;
+export default CardOne;

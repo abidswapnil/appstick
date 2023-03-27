@@ -12,11 +12,11 @@ const Advertise = () => {
         <div className={styles.container}>
           <span className={styles.primarytextadvert}>Our Remunerative <a href="" className={styles.secondarytextadvert}>Banks</a></span>
           <ul className={styles.imageContaineradvert}>
-            <a href=""><li className={styles.imagesizeadvert}><Image src={efg} /></li></a>
-            <a href=""><li className={styles.imagesizeadvert}><Image src={mirabaud} /></li></a>
-            <a href=""><li className={styles.imagesizeadvert}><Image src={ubs} /></li></a>
-            <a href=""><li className={styles.imagesizeadvert}><Image src={pictet} /></li></a>
-            <a href=""><li className={styles.imagesizeadvert}><Image src={postfinance} /></li></a>
+            <a href=""><li className={styles.imagesizeadvert}><Image src={efg} alt='' /></li></a>
+            <a href=""><li className={styles.imagesizeadvert}><Image src={mirabaud} alt='' /></li></a>
+            <a href=""><li className={styles.imagesizeadvert}><Image src={ubs} alt='' /></li></a>
+            <a href=""><li className={styles.imagesizeadvert}><Image src={pictet} alt='' /></li></a>
+            <a href=""><li className={styles.imagesizeadvert}><Image src={postfinance} alt='' /></li></a>
           </ul>
         </div>
     )

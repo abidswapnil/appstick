@@ -30,6 +30,14 @@
   margin-bottom: 0.7rem;
 }
 
+.loginContainer p {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+  margin-bottom: 0.7rem;
+}
+
 .forgotPasswordLink {
   font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
