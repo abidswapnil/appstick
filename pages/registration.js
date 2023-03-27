@@ -3,6 +3,7 @@ import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import styles from '@/styles/Auth/Login.module.css'
 import Image from 'next/image';
 import tree from '@/public/Images/AuthImages/tree.svg'
+import Link from 'next/link';
 
 const LoginScreen = () => {
     return(
@@ -20,9 +21,9 @@ const LoginScreen = () => {
                   <input type='text' placeholder='Last name' className={styles.input}></input>
                   <label htmlFor="password" className={styles.label}>Create password</label>
                   <input type='password' placeholder='Create password' className={styles.input}></input>
-                  <a href="" className={styles.forgotPasswordLink}>Forgot password?</a>
+                  <Link href="" className={styles.forgotPasswordLink}>Forgot password?</Link>
                   <button className={styles.loginbutton}>Sign Up</button>
-                  <p>Already have an account? <a href="http://localhost:3000/login" className={styles.createAccountLink}>Log In</a></p>
+                  <p>Already have an account? <Link href="http://localhost:3000/login" className={styles.createAccountLink}>Log In</Link></p>
                   <div className={styles.signupButtonGroup}>
                     <button className={styles.signUpwithFacebook}>
                       <FontAwesomeIcon icon={faFacebook} size="lg" />Sign up with facebook
